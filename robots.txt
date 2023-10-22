@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /search.html
 
-Sitemap: https://deskiam.github.io/sitemap.xml
+Sitemap: https://bokeh.eu.org/sitemap.xml
