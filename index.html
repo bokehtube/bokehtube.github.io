@@ -1760,14 +1760,12 @@
       document.getElementById("extra_bottomads").innerHTML =
         '<script async="async" data-cfasync="false" src="//contentmentchef.com/96314fa952985a5aa0baad800dcf033b/invoke.js"></script><div id="container-96314fa952985a5aa0baad800dcf033b"></div>';
     }
-    /* popunder */
     (function () {
       var script = document.createElement('script');
       script.type = 'text/javascript';
       script.src = '//contentmentchef.com/6c/5e/64/6c5e64b2c030e229293b29acdaa24af6.js';
       document.body.appendChild(script);
     })();
-    /* top 720 */
     async function relCall() {
       var script, el;
       await sleep(1000);
@@ -1784,7 +1782,6 @@
         el = document.getElementById("top_720");
         el.appendChild(script);
       }
-      /* sidebar 300 */
       await sleep(3000);
       if (document.getElementById("sidebar_300")) {
         script = document.createElement('script');
@@ -1799,7 +1796,6 @@
         el = document.getElementById("sidebar_300");
         el.appendChild(script);
       }
-      /* middle */
       await sleep(3000);
       if (document.getElementById("in_post_bottomads")) {
         script = document.createElement('center');
