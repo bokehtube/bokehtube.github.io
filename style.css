@@ -1058,7 +1058,7 @@ details.dropdown>:last-child {
 
 .is-full-width {
     width: 100% !important;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .is-vertical-align {
@@ -1406,7 +1406,7 @@ details.dropdown>:last-child {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .responsive-iframe iframe {
